@@ -1,0 +1,88 @@
+**********************************************************************************************
+                             Background Keyword
+**********************************************************************************************
+Background can contain one or more Given steps, which are run before each scenario, but after any Before hooks.
+
+A Background is placed before the first Scenario/Example, at the same level of indentation.
+
+If you need different Background steps for different scenarios, consider breaking up your set of scenarios into more Rules or more Features.
+
+-----------------------------------------------------------------------------------------
+
+Hybrid ---> Cucumber and POM
+
+1. Feature ---> All features
+
+2. StepDefinition ---> All definitions
+
+3. Config ---> Driver [Browser & Environment]
+
+4. Pages  ---> Locators & Re-usable functions
+
+5. Reports ---> Pretty HTML report & JSON ---> Cucumber Report plugin
+
+6. TestData --> Excel files
+
+------------------------------------------------------------------------------------------
+
+What is Repository?
+
+Repository is a common place where we can update our code or testcases.
+It’s a common shared space where team member can commit the code.
+
+What is Version control System?
+
+As name itself describe it is mainly used to maintain the version of code. Every time when we make changes in code it create a new version of the code.
+
+SVN
+GitHub
+TFS
+
+---------------------------------------------------------------------------------------------
+
+GitHub ---> DevOps
+       ---> Cloud based repository
+
+URL ---> Repository ---> https://github.com/QTTSelenium/Selenium_Mar2023.git
+
+
+my url-->https://github.com/ysreenivasulu/seleniumsreenu.git
+Username:ysreenivasulu
+Password:SREENU@123va
+
+Task1: Hybrid framwork
+Task2: GitHub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
