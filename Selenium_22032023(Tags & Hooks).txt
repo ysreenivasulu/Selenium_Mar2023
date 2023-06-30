@@ -1,0 +1,98 @@
+To Generate HTML Report
+
+1. Add Cucumber-TestNG dependency
+
+2. Cucumber Options
+
+3. Built-in reporter plugins
+
+-------------------------------------------------------------
+To Generate custom report ---> Third-party plugins
+
+cucumber-reporting-plugin: A Cucumber plugin which produces pretty HTML reports 
+
+-------------------------------------------------------------------------------
+To run scripts from POM.xml
+
+1. Change JRE path to JDK path
+
+2. Maven surefire plugin
+
+**********************************************************************************************
+                                Tags
+**********************************************************************************************
+Tags are a great way to organise your features and scenarios.
+
+1. Features
+
+2. Scenarios
+
+----------------------------------------------
+           Tag expressions
+------------------------------------------------
+
+1. @fast: Scenarios tagged with @fast
+2. @smoke and @fast: Scenarios tagged with both @smoke and @fast
+3. @Sanity or @Smoke: Scenarios tagged with either @Sanity or @Smoke
+4. @Sanity and not @Regression:Scenarios tagged with @Sanity that aren’t also tagged with @Regression
+
+Advanced Tag expression: (@smoke or @ui) and (not @slow)
+
+*********************************************************************************************
+                              Data Driven Testing
+*********************************************************************************************
+
+The Scenario Outline keyword can be used to run the same Scenario multiple times, with different combinations of values.
+
+The keyword Scenario Template is a synonym of the keyword Scenario Outline.
+
+A Scenario Outline must contain one or more Examples (or Scenarios) section(s). 
+
+********************************************************************************************
+                                  Hooks
+********************************************************************************************
+Hooks are blocks of code that can run at various points in the Cucumber execution cycle. 
+They are typically used for setup and teardown of the environment before and after eachscenario
+
+1. Scenario hooks: Scenario hooks run for every scenario.
+
+2. Conditional hooks: To run a particular hook only for certain scenarios
+
+Task1: Features & Definitions for all modules
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
